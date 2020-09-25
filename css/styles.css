@@ -1,21 +1,28 @@
 /* applies to screens smaller than 500px (first breakpoint) */
 /* and above unless overwritten below */
+
+/*https://colorhunt.co/palette/207323*/
+
+
 body{
   font-family: Tahoma, Geneva, sans-serif;
-  font-size: 1vw;
+  font-size: 2vw;
   text-align: center;
+  /* background-color: #eff48e; */
+  max-width: 95%;
 }
 
 .header{
   text-align: center;
-  margin-left: 48%;
   display: flex;
+  margin-left: 23%;
+  margin-right: 5%;
   flex-direction: row;
 }
 
 .header h1{
-  font-size: 2vw;
-  min-width: 100%;
+  font-size: 5vw;
+  min-width: 300%;
 }
 
 .language-option{
@@ -23,10 +30,11 @@ body{
   flex-direction: row;
   align-items: center;
   justify-content: flex-end;
+  padding-left: 50%;
 }
 
 .flag{
-  width: 6%;
+  width: 22%;
   height: auto;
   padding-left: 3%;
 }
