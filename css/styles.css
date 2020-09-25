@@ -8,14 +8,14 @@ body{
   font-family: Tahoma, Geneva, sans-serif;
   font-size: 2vw;
   text-align: center;
-  /* background-color: #eff48e; */
-  max-width: 95%;
+  background-color: #eff48e;
+  margin: 0px;
 }
 
 .header{
   text-align: center;
   display: flex;
-  margin-left: 23%;
+  margin-left: 24%;
   margin-right: 5%;
   flex-direction: row;
 }
@@ -34,11 +34,37 @@ body{
 }
 
 .flag{
-  width: 22%;
+  width: 55%;
   height: auto;
-  padding-left: 3%;
 }
 
+.navigation-bar{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #2ec1ac;
+  width: 100%;
+}
+
+.navigation-bar li{
+  float: left;
+  width: 25%;
+}
+
+.navigation-bar li a{
+  display: block;
+  text-align: center;
+  padding: 5% 15%;
+}
+
+.navigation-bar li a:hover{
+  background-color: #3e978b;
+}
+
+.active{
+  background-color: #3e978b;
+}
 
 
 /* TABLET STYLES */
