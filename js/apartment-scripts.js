@@ -1,153 +1,19 @@
 "use-strict";
 
-//Apartment A selector elements
-const A1_selector = document.getElementById('A1-selector');
-const A2_selector = document.getElementById('A2-selector');
-const A3_selector = document.getElementById('A3-selector');
-const A4_selector = document.getElementById('A4-selector');
-const APlan_selector = document.getElementById('APlan-selector');
+function slideshowListners(idSelector, slideshowList){
+  var image = document.getElementById(idSelector); //Gathers the display image
+  for(var i = 0; slideshowList.length > i ; i++){ //loops through the selector images
+    slideshowList[i].addEventListener("click", function(){ //adds event listener to selector images and defines the behaviour of the event listener
+      image.src = this.src; //sets the display image source to the clicked selector image
 
-//Apartment A display images
-const A1_display = document.getElementById('A1-display');
-const A2_display = document.getElementById('A2-display');
-const A3_display = document.getElementById('A3-display');
-const A4_display = document.getElementById('A4-display');
-const APlan_display = document.getElementById('APlan-display');
+      for(var x = 0; slideshowList.length > x ; x++){ //sets the opacity of selector images to 0.4
+        slideshowList[x].style.opacity = "0.4";
+      }
 
-const A1_click = () => {
-  //Make selected image bolder, fade the others, if it is not already selected
-  if(window.getComputedStyle(A1_display, null).getPropertyValue("display") == 'none'){
-    A1_display.classList.toggle('apartment-slide-active');
-    A1_selector.classList.toggle('selector-image-active');
-
-    if(window.getComputedStyle(A2_display, null).getPropertyValue("display") == 'block'){
-      A2_display.classList.toggle('apartment-slide-active');
-      A2_selector.classList.toggle('selector-image-active');
-    }
-    if(window.getComputedStyle(A3_display, null).getPropertyValue("display") == 'block'){
-      A3_display.classList.toggle('apartment-slide-active');
-      A3_selector.classList.toggle('selector-image-active');
-    }
-    if(window.getComputedStyle(A4_display, null).getPropertyValue("display") == 'block'){
-      A4_display.classList.toggle('apartment-slide-active');
-      A4_selector.classList.toggle('selector-image-active');
-    }
-    if(window.getComputedStyle(APlan_display, null).getPropertyValue("display") == 'block'){
-      APlan_display.classList.toggle('apartment-slide-active');
-      APlan_selector.classList.toggle('selector-image-active');
-    }
+      this.style.opacity = "1"; //sets the opacity of the clicked image to 1
+    });
   }
 }
 
-const A2_click = () => {
-  //Make selected image bolder, fade the others, if it is not already selected
-  if(window.getComputedStyle(A2_display, null).getPropertyValue("display") == 'none'){
-    A2_selector.classList.toggle('selector-image-active');
-    A2_display.classList.toggle('apartment-slide-active');
-  }
-
-  if(window.getComputedStyle(A1_display, null).getPropertyValue("display") == 'block'){
-    A1_display.classList.toggle('apartment-slide-active');
-    A1_selector.classList.toggle('selector-image-active');
-  }
-  if(window.getComputedStyle(A3_display, null).getPropertyValue("display") == 'block'){
-    A3_display.classList.toggle('apartment-slide-active');
-    A3_selector.classList.toggle('selector-image-active');
-  }
-  if(window.getComputedStyle(A4_display, null).getPropertyValue("display") == 'block'){
-    A4_display.classList.toggle('apartment-slide-active');
-    A4_selector.classList.toggle('selector-image-active');
-  }
-  if(window.getComputedStyle(APlan_display, null).getPropertyValue("display") == 'block'){
-    APlan_display.classList.toggle('apartment-slide-active');
-    APlan_selector.classList.toggle('selector-image-active');
-  }
-}
-
-const A3_click = () => {
-  //Make selected image bolder, fade the others, if it is not already selected
-  if(window.getComputedStyle(A3_display, null).getPropertyValue("display") == 'none'){
-    A3_selector.classList.toggle('selector-image-active');
-    A3_display.classList.toggle('apartment-slide-active');
-  }
-
-  if(window.getComputedStyle(A1_display, null).getPropertyValue("display") == 'block'){
-    A1_display.classList.toggle('apartment-slide-active');
-    A1_selector.classList.toggle('selector-image-active');
-  }
-  if(window.getComputedStyle(A2_display, null).getPropertyValue("display") == 'block'){
-    A2_display.classList.toggle('apartment-slide-active');
-    A2_selector.classList.toggle('selector-image-active');
-  }
-  if(window.getComputedStyle(A4_display, null).getPropertyValue("display") == 'block'){
-    A4_display.classList.toggle('apartment-slide-active');
-    A4_selector.classList.toggle('selector-image-active');
-  }
-  if(window.getComputedStyle(APlan_display, null).getPropertyValue("display") == 'block'){
-    APlan_display.classList.toggle('apartment-slide-active');
-    APlan_selector.classList.toggle('selector-image-active');
-  }
-}
-
-const A4_click = () => {
-  //Make selected image bolder, fade the others, if it is not already selected
-  if(window.getComputedStyle(A4_display, null).getPropertyValue("display") == 'none'){
-    A4_selector.classList.toggle('selector-image-active');
-    A4_display.classList.toggle('apartment-slide-active');
-  }
-
-  if(window.getComputedStyle(A1_display, null).getPropertyValue("display") == 'block'){
-    A1_display.classList.toggle('apartment-slide-active');
-    A1_selector.classList.toggle('selector-image-active');
-  }
-  if(window.getComputedStyle(A2_display, null).getPropertyValue("display") == 'block'){
-    A2_display.classList.toggle('apartment-slide-active');
-    A2_selector.classList.toggle('selector-image-active');
-  }
-  if(window.getComputedStyle(A3_display, null).getPropertyValue("display") == 'block'){
-    A3_display.classList.toggle('apartment-slide-active');
-    A3_selector.classList.toggle('selector-image-active');
-  }
-  if(window.getComputedStyle(APlan_display, null).getPropertyValue("display") == 'block'){
-    APlan_display.classList.toggle('apartment-slide-active');
-    APlan_selector.classList.toggle('selector-image-active');
-  }
-}
-
-const APlan_click = () => {
-  //Make selected image bolder, fade the others, if it is not already selected
-  if(window.getComputedStyle(APlan_display, null).getPropertyValue("display") == 'none'){
-    APlan_selector.classList.toggle('selector-image-active');
-    APlan_display.classList.toggle('apartment-slide-active');
-  }
-
-  if(window.getComputedStyle(A1_display, null).getPropertyValue("display") == 'block'){
-    A1_display.classList.toggle('apartment-slide-active');
-    A1_selector.classList.toggle('selector-image-active');
-  }
-  if(window.getComputedStyle(A2_display, null).getPropertyValue("display") == 'block'){
-    A2_display.classList.toggle('apartment-slide-active');
-    A2_selector.classList.toggle('selector-image-active');
-  }
-  if(window.getComputedStyle(A3_display, null).getPropertyValue("display") == 'block'){
-    A3_display.classList.toggle('apartment-slide-active');
-    A3_selector.classList.toggle('selector-image-active');
-  }
-  if(window.getComputedStyle(A4_display, null).getPropertyValue("display") == 'block'){
-    A4_display.classList.toggle('apartment-slide-active');
-    A4_selector.classList.toggle('selector-image-active');
-  }
-}
-
-//Called onload by the html body
-function initialDisplay(){
-  A1_display.classList.toggle('apartment-slide-active');
-  A1_selector.classList.toggle('selector-image-active');
-}
-
-//Event listeners
-A1_selector.addEventListener("click", A1_click);
-A2_selector.addEventListener("click", A2_click);
-A3_selector.addEventListener("click", A3_click);
-A4_selector.addEventListener("click", A4_click);
-APlan_selector.addEventListener("click", APlan_click);
+var slideshow1 = document.getElementsByClassName('slideshow1-img'); //gathers all the selector images in to an array
+slideshowListners("apartment-A-display", slideshow1); //Passes the class of the display image and list of selector images

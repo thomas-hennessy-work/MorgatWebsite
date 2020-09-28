@@ -10,7 +10,7 @@ body{
   font-family: Tahoma, Geneva, sans-serif;
   font-size: 2vw;
   text-align: center;
-  background-color: #eff48e;
+  background-color: #ffffb3;
   margin: 0px;
 }
 
@@ -89,7 +89,7 @@ body{
   padding-left: 20%;
 }
 
-.apartment-slide{
+/* .apartment-slide{
   margin: auto;
   height: 30vw;
   display: none;
@@ -98,6 +98,16 @@ body{
 
 .apartment-slide-active{
   display: block;
+} */
+
+#apartment-A-display{
+  margin: auto;
+  height: 30vw;
+  padding-bottom: 5%;
+}
+
+#initial-selection{
+  opacity: 1;
 }
 
 .slideshow-options-list{
