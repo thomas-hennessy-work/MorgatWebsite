@@ -1,7 +1,8 @@
 "use strict";
 
 // Slide show scripts
-//https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_slideshow_rr
+// https://www.w3schools.com/w3css/w3css_slideshow.asp
+// https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_slideshow_rr
 
 var slideIndex = 0;
 slideshow();
