@@ -82,6 +82,7 @@ body{
 
 .slideshow-slide{
   height: 40vw;
+  display: none;
 }
 
 #narow-image{
