@@ -7,6 +7,7 @@
 var slideIndex = 0;
 slideshow();
 
+//Operates the automated slideshow on the index page
 function slideshow() {
   var i;
   var x = document.getElementsByClassName('slideshow-slide'); //gathers the eliments denoted by the class slideshow-slide

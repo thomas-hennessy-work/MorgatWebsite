@@ -88,6 +88,32 @@ body{
   padding-left: 20%;
 }
 
+.apartment-slide{
+  margin: auto;
+  height: 30vw;
+  display: none;
+  padding-bottom: 5%;
+}
+
+.apartment-slide-active{
+  display: block;
+}
+
+.slideshow-options-list{
+  display: flex;
+  flex-direction: row;
+}
+
+.selector-image{
+  height: 15vw;
+  padding-left: 2vw;
+  opacity: 0.4;
+}
+
+.selector-image-active{
+  opacity: 1;
+}
+
 /* TABLET STYLES */
 
 
