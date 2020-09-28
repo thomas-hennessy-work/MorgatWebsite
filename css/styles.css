@@ -72,6 +72,21 @@ body{
 }
 
 
+/* Slidesahow styles */
+.auto-slideshow{
+  margin: auto;
+  width: 50%;
+}
+
+.slideshow-slide{
+  height: 40vw;
+}
+
+#narow-image{
+  padding-left: 20%;
+}
+
+
 /* TABLET STYLES */
 
 
