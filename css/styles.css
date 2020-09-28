@@ -4,7 +4,7 @@
 /*https://colorhunt.co/palette/207323*/
 
 /* https://www.w3schools.com/w3css/4/w3.css */
-.w3-animate-opacity{animation:opac 0.8s}@keyframes opac{from{opacity:0} to{opacity:1}}
+.w3-animate-opacity{animation:opac 1s}@keyframes opac{from{opacity:0.4} to{opacity:1}}
 
 body{
   font-family: Tahoma, Geneva, sans-serif;
