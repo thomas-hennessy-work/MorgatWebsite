@@ -100,7 +100,7 @@ body{
   display: block;
 } */
 
-#apartment-A-display{
+.display-image{
   margin: auto;
   height: 30vw;
   padding-bottom: 5%;
@@ -119,6 +119,10 @@ body{
   height: 15vw;
   padding-left: 2vw;
   opacity: 0.4;
+}
+
+.slideshowB-img{
+  padding-left: 1.8vw;
 }
 
 .selector-image-active{
