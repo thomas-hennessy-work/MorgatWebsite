@@ -45,8 +45,9 @@ body{
   margin: 0px;
   padding: 0px;
   overflow: hidden;
-  background-color: #2ec1ac;
+  background-color: #5ad8c5;
   width: 100%;
+  margin-bottom: 2%;
 }
 
 .navigation-bar li{
@@ -61,11 +62,11 @@ body{
 }
 
 .navigation-bar li a:hover{
-  background-color: #3e978b;
+  background-color: #5cbcb0;
 }
 
 .active{
-  background-color: #3e978b;
+  background-color: #5cbcb0;
 }
 
 .inactive{
@@ -74,7 +75,7 @@ body{
 }
 
 
-/* Slidesahow styles */
+/* Auto slidesahow styles */
 .auto-slideshow{
   margin: auto;
   width: 50%;
@@ -89,16 +90,10 @@ body{
   padding-left: 20%;
 }
 
-/* .apartment-slide{
-  margin: auto;
-  height: 30vw;
-  display: none;
-  padding-bottom: 5%;
+/* Apartments slideshow styles */
+.apartment-slideshow{
+  padding-bottom: 4%;
 }
-
-.apartment-slide-active{
-  display: block;
-} */
 
 .display-image{
   margin: auto;
