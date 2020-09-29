@@ -163,6 +163,13 @@ body{
   box-shadow: 3px 3px 3px black;
 }
 
+.documents{
+  display: flex;
+  margin: auto;
+  width: 80%;
+  margin-bottom: 10%;
+}
+
 /* TABLET STYLES */
 
 
