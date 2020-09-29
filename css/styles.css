@@ -1,8 +1,6 @@
 /* applies to screens smaller than 500px (first breakpoint) */
 /* and above unless overwritten below */
 
-/*https://colorhunt.co/palette/207323*/
-
 /* https://www.w3schools.com/w3css/4/w3.css */
 .w3-animate-opacity{animation:opac 1s}@keyframes opac{from{opacity:0.4} to{opacity:1}}
 
@@ -26,6 +24,18 @@ body{
 .header h1{
   font-size: 5vw;
   min-width: 300%;
+}
+
+.header-contact-div{
+  display: flex;
+  color: red;
+  margin: auto;
+  padding-bottom: 1%;
+}
+
+.header-contact{
+  width: auto;
+  padding-left: 5%;
 }
 
 .language-option{
