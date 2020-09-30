@@ -270,4 +270,14 @@ h2{
     padding-left: 42%;
   }
 
+
+  .display-image{
+    height: 25vw;
+  }
+
+  .selector-image{
+    height: 12vw;
+    padding-left: 5vw;
+  }
+
 }
