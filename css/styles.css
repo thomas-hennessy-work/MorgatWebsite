@@ -17,6 +17,14 @@ body p{
   font-size: 4vw;
 }
 
+body h2{
+  font-size: 4vw;
+}
+
+.bold-information{
+  font-size: 3.5vw;
+}
+
 .header{
   text-align: center;
   display: flex;
@@ -51,16 +59,13 @@ body p{
   flex-direction: row;
   align-items: center;
   justify-content: flex-end;
-  padding-left: 50%;
-}
-
-.language-option-text{
-  font-size: 3vw;
+  padding-left: 45%;
 }
 
 .flag{
-  width: 80%;
+  width: 8vw;
   height: auto;
+  padding-left: 20%;
 }
 
 .navigation-bar{
@@ -69,7 +74,7 @@ body p{
   margin-top: 0px;
   overflow: hidden;
   background-color: #5ad8c5;
-  font-size: 3vw;
+  font-size: 2.5vw;
   font-weight: bold;
 }
 
@@ -152,6 +157,7 @@ body p{
   margin: auto;
   border-collapse: collapse;
   width: 95%;
+  font-size: 3vw;
 }
 
 .price-table th{
@@ -188,6 +194,14 @@ body p{
   margin: auto;
   width: 80%;
   margin-bottom: 10%;
+}
+
+.pdf-form{
+  font-size: 3vw;
+}
+
+.maps-link a{
+  font-size: 3vw;
 }
 
 /* TABLET STYLES */
