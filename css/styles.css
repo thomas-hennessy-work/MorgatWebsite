@@ -7,7 +7,6 @@
 /* All pages styles */
 body{
   font-family: Tahoma, Geneva, sans-serif;
-  font-size: 2vw;
   text-align: center;
   background-color: #ffffb3;
   margin: 0px;
@@ -227,7 +226,6 @@ h2{
 
 /* DESKTOP STYLES */
 @media screen and (min-width: 1000px) {
-
   p{
     font-size: 2vw;
   }
@@ -246,35 +244,9 @@ h2{
     padding-left: 43%;
   }
 
-
-
-
-  /* .header-contact-div{
-    margin-right: 0px;
-    width: 150%;
-  }
-
-  .header-contact{
-    font-size: 2vw;
-  }
-
-  .header-phone{
-    width: 150%;
-  }
-
-  #email-contact{
-    width: 40%;
-  }
-
   .one-line-contact{
     display: flex;
-    flex-direction: row;
-    padding-right: 5%;
-    width: 100%;
-  } */
-
-  .one-line-contact{
-    display: flex;
+    padding-left: 3%;
   }
 
   .header-contact-div{
@@ -287,6 +259,15 @@ h2{
 
   .header-contact{
     font-size: 2vw
+  }
+
+  .slideshow-slide{
+    height: 20vw;
+    padding-left: 35%;
+  }
+
+  #narow-image{
+    padding-left: 42%;
   }
 
 }
