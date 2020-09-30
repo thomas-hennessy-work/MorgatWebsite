@@ -13,6 +13,10 @@ body{
   margin: 0px;
 }
 
+body p{
+  font-size: 4vw;
+}
+
 .header{
   text-align: center;
   display: flex;
@@ -34,8 +38,12 @@ body{
 }
 
 .header-contact{
-  width: auto;
-  padding-left: 5%;
+  display: flex;
+  margin: auto;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-bottom: 1.5%;
+  font-size: 3.5vw;
 }
 
 .language-option{
@@ -46,30 +54,32 @@ body{
   padding-left: 50%;
 }
 
+.language-option-text{
+  font-size: 3vw;
+}
+
 .flag{
-  width: 55%;
+  width: 80%;
   height: auto;
 }
 
 .navigation-bar{
   list-style-type: none;
-  margin: 0px;
   padding: 0px;
+  margin-top: 0px;
   overflow: hidden;
   background-color: #5ad8c5;
-  width: 100%;
-  margin-bottom: 2%;
-}
-
-.navigation-bar li{
-  float: left;
-  width: 25%;
+  font-size: 3vw;
+  font-weight: bold;
 }
 
 .navigation-bar li a{
   display: block;
   text-align: center;
-  padding: 5% 15%;
+  float: left;
+  width: 25%;
+  padding-top: 1.4%;
+  padding-bottom: 1.4%;
 }
 
 .navigation-bar li a:hover{
