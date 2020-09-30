@@ -13,11 +13,11 @@ body{
   margin: 0px;
 }
 
-body p{
+p{
   font-size: 4vw;
 }
 
-body h2{
+h2{
   font-size: 4vw;
 }
 
@@ -204,7 +204,89 @@ body h2{
   font-size: 3vw;
 }
 
+
+
+
+
 /* TABLET STYLES */
+@media screen and (min-width: 500px) {
+
+  p{
+    font-size: 3vw;
+  }
+
+  .header{
+    margin-left: 10%;
+  }
+
+}
+
+
+
 
 
 /* DESKTOP STYLES */
+@media screen and (min-width: 1000px) {
+
+  p{
+    font-size: 2vw;
+  }
+
+  .header{
+    margin-left: 0px;
+  }
+
+  .header h1{
+    margin-left: 0px;
+    min-width: 275%;
+    margin-top: 1%;
+  }
+
+  .language-option{
+    padding-left: 43%;
+  }
+
+
+
+
+  /* .header-contact-div{
+    margin-right: 0px;
+    width: 150%;
+  }
+
+  .header-contact{
+    font-size: 2vw;
+  }
+
+  .header-phone{
+    width: 150%;
+  }
+
+  #email-contact{
+    width: 40%;
+  }
+
+  .one-line-contact{
+    display: flex;
+    flex-direction: row;
+    padding-right: 5%;
+    width: 100%;
+  } */
+
+  .one-line-contact{
+    display: flex;
+  }
+
+  .header-contact-div{
+    width: 60%;
+  }
+
+  #email-contact{
+    width: 40%;
+  }
+
+  .header-contact{
+    font-size: 2vw
+  }
+
+}
