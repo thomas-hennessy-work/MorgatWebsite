@@ -73,7 +73,7 @@ h2{
   margin-top: 0px;
   overflow: hidden;
   background-color: #5ad8c5;
-  font-size: 2.5vw;
+  font-size: 2.4vw;
   font-weight: bold;
 }
 
@@ -81,13 +81,25 @@ h2{
   display: block;
   text-align: center;
   float: left;
-  width: 25%;
+  /* width: 23%; */
   padding-top: 1.4%;
   padding-bottom: 1.4%;
 }
 
 .navigation-bar li a:hover{
   background-color: #5cbcb0;
+}
+
+.nav-bar-eng{
+  width: 25%;
+}
+
+.nav-bar-fr{
+  width: 23%;
+}
+
+#wide-nav-option{
+  width: 31%;
 }
 
 .active{
