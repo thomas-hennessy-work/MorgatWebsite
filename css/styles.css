@@ -70,9 +70,10 @@ h2{
 .navigation-bar{
   list-style-type: none;
   padding: 0px;
+  padding-bottom: 8%;
   margin-top: 0px;
-  overflow: hidden;
-  background-color: #5ad8c5;
+  /* overflow: hidden; */
+  /* background-color: #5ad8c5; */
   font-size: 2.4vw;
   font-weight: bold;
 }
@@ -81,13 +82,15 @@ h2{
   display: block;
   text-align: center;
   float: left;
-  /* width: 23%; */
   padding-top: 1.4%;
   padding-bottom: 1.4%;
+  background-color: #5ad8c5;
 }
 
 .navigation-bar li a:hover{
   background-color: #5cbcb0;
+  box-shadow: -3px 2px 3px black;
+  transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
 .nav-bar-eng{
@@ -102,8 +105,15 @@ h2{
   width: 31%;
 }
 
-.active{
+#active{
   background-color: #5cbcb0;
+  box-shadow: -3px 2px 3px black;
+}
+
+#wide-nav-option-active{
+  width: 31%;
+  background-color: #5cbcb0;
+  box-shadow: -3px 2px 3px black;
 }
 
 .inactive{
@@ -241,6 +251,8 @@ h2{
 
 .pdf-form :hover{
   background-color: #5cbcb0;
+  box-shadow: -3px 3px 3px black;
+  transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
 
