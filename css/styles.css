@@ -216,6 +216,33 @@ h2{
 }
 
 
+/* Booking form */
+
+.documents{
+  padding-top: 5%;
+  padding-right: 8%;
+}
+
+.pdf-form{
+  margin-right: 5%;
+  min-width: 50%;
+}
+
+.pdf-form a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  width: 50%;
+
+  border-radius: 5%;
+  padding: 5%;
+  background-color: #5ad8c5;
+}
+
+.pdf-form :hover{
+  background-color: #5cbcb0;
+}
+
 
 
 
