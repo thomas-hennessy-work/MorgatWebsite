@@ -161,6 +161,7 @@ h2{
   padding-right: 4%;
   padding-left: 4%;
   padding-bottom: 0.3%;
+  cursor: pointer;
 
   border-radius: 5%;
   background-color: #5ad8c5;
@@ -170,13 +171,30 @@ h2{
   margin-right: 8%;
 }
 
+.previous:hover{
+  background-color: #5cbcb0;
+  box-shadow: -3px 3px 3px black;
+  transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
 .next{
   margin-left: 8%;
+}
+
+.next:hover{
+  background-color: #5cbcb0;
+  box-shadow: -3px 3px 3px black;
+  transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
 .slideshow-options-list{
   display: flex;
   flex-direction: row;
+  cursor: pointer;
+}
+
+#narrow-list{
+  padding-left: 4%;
 }
 
 .selector-image{
