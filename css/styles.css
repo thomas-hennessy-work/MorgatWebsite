@@ -256,13 +256,16 @@ h2{
 }
 
 /* Booking form and map*/
+.maps-link{
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
 
 .maps-link a{
   color: black;
   font-weight: bold;
   width: 50%;
   font-size: 3vw;
-
   border-radius: 5%;
   padding: 2%;
   background-color: #5ad8c5;
@@ -329,6 +332,8 @@ h2{
 @media screen and (min-width: 1000px) {
   p{
     font-size: 2vw;
+    max-width: 80%;
+    padding-left: 10%;
   }
 
   .header{
@@ -379,6 +384,12 @@ h2{
   .selector-image{
     height: 12vw;
     padding-left: 5vw;
+  }
+
+  .price-table{
+    width: 80%;
+    padding-left: 10%;
+    font-size: 2vw;
   }
 
 }
