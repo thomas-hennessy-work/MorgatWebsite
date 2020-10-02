@@ -254,7 +254,28 @@ h2{
   box-shadow: 3px 3px 3px black;
 }
 
+/* Booking form and map*/
+
+.maps-link a{
+  color: black;
+  font-weight: bold;
+  width: 50%;
+  font-size: 3vw;
+
+  border-radius: 5%;
+  padding: 2%;
+  background-color: #5ad8c5;
+}
+
+.maps-link :hover{
+  background-color: #5cbcb0;
+  box-shadow: -3px 3px 3px black;
+  transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
 .documents{
+  padding-top: 5%;
+  padding-right: 8%;
   display: flex;
   margin: auto;
   width: 80%;
@@ -262,24 +283,9 @@ h2{
 }
 
 .pdf-form{
-  font-size: 3vw;
-}
-
-.maps-link a{
-  font-size: 3vw;
-}
-
-
-/* Booking form */
-
-.documents{
-  padding-top: 5%;
-  padding-right: 8%;
-}
-
-.pdf-form{
   margin-right: 5%;
   min-width: 50%;
+  font-size: 3vw;
 }
 
 .pdf-form a{
