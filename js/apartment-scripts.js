@@ -72,6 +72,10 @@ prevButtonListeners("A-previous", "apartment-A-display", slideshowA);
 
 var slideshowB = document.getElementsByClassName('slideshowB-img');
 slideshowListners("apartment-B-display", "apartment-B-link", slideshowB);
+nextButtonListeners("B-next", "apartment-B-display", slideshowB);
+prevButtonListeners("B-previous", "apartment-B-display", slideshowB);
 
 var slideshowC = document.getElementsByClassName('slideshowC-img');
 slideshowListners("apartment-C-display", "apartment-C-link", slideshowC);
+nextButtonListeners("C-next", "apartment-C-display", slideshowC);
+prevButtonListeners("C-previous", "apartment-C-display", slideshowC);
