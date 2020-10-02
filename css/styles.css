@@ -11,6 +11,7 @@ body{
   text-align: center;
   background-color: #ffffb3;
   margin: 0px;
+  overflow-x: hidden;
 }
 
 body a{
@@ -153,7 +154,7 @@ h2{
 
 .nav-buttons{
   padding-top: 1%;
-  padding-bottom: 1%;
+  padding-bottom: 2%;
 }
 
 .nav-buttons a{
