@@ -6,10 +6,15 @@
 
 /* All pages styles */
 body{
-  font-family: Tahoma, Geneva, sans-serif;
+  /* font-family: Tahoma, Geneva, sans-serif; */
+  font-family: Didot LT STD;
   text-align: center;
   background-color: #ffffb3;
   margin: 0px;
+}
+
+body a{
+  text-decoration: none;
 }
 
 p{
@@ -118,7 +123,6 @@ h2{
 
 .inactive{
   color: black;
-  text-decoration: none;
 }
 
 
@@ -145,7 +149,29 @@ h2{
 .display-image{
   margin: auto;
   height: 50vw;
-  padding-bottom: 5%;
+}
+
+.nav-buttons{
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.nav-buttons a{
+  font-size: 6vw;
+  padding-right: 4%;
+  padding-left: 4%;
+  padding-bottom: 0.3%;
+
+  border-radius: 5%;
+  background-color: #5ad8c5;
+}
+
+.previous{
+  margin-right: 8%;
+}
+
+.next{
+  margin-left: 8%;
 }
 
 .slideshow-options-list{
@@ -239,7 +265,6 @@ h2{
 }
 
 .pdf-form a{
-  text-decoration: none;
   color: black;
   font-weight: bold;
   width: 50%;
