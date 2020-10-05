@@ -33,7 +33,7 @@ h2{
 .header{
   text-align: center;
   display: flex;
-  margin-left: 24%;
+  margin-left: 20%;
   margin-right: 5%;
   flex-direction: row;
 }
@@ -342,7 +342,6 @@ h2{
 
   .header h1{
     margin-left: 0px;
-    min-width: 275%;
     margin-top: 1%;
   }
 
