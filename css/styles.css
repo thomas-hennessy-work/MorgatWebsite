@@ -142,6 +142,26 @@ footer{
   margin: 0px;
 }
 
+.webcam-link{
+  padding-top: 3%;
+  padding-bottom: 2%;
+}
+
+.webcam-link a{
+  color: black;
+  font-weight: bold;
+  width: 50%;
+  font-size: 3vw;
+  border-radius: 5%;
+  padding: 2%;
+  background-color: #5ad8c5;
+}
+
+.webcam-link :hover{
+  background-color: #5cbcb0;
+  box-shadow: -3px 3px 3px black;
+  transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
 
 /* Auto slidesahow styles */
 .auto-slideshow{
