@@ -10,7 +10,7 @@ body{
   font-family: Didot LT STD;
   text-align: center;
   background-color: #ffffb3;
-  margin: 0px;
+  margin: 0%;
   overflow-x: hidden;
 }
 
@@ -126,6 +126,20 @@ h2{
 
 .inactive{
   color: black;
+}
+
+footer{
+  position: relative;
+  bottom: -2vw;
+  text-align: left;
+  color: white;
+  background-color: black;
+}
+
+.footer-text{
+  font-size: 2vw;
+  padding-left: 1%;
+  margin: 0px;
 }
 
 
@@ -315,13 +329,24 @@ h2{
 
 /* TABLET STYLES */
 @media screen and (min-width: 500px) {
-
   p{
     font-size: 3vw;
   }
 
   .header{
     margin-left: 10%;
+  }
+
+  footer{
+    display: flex;
+  }
+
+  .footer-text{
+    width: 10%;
+  }
+
+  .contact{
+    width: 30%;
   }
 
 }
@@ -372,6 +397,10 @@ h2{
     font-size: 2vw
   }
 
+  .footer-text{
+    font-size: 1.5vw;
+  }
+
   .slideshow-slide{
     height: 33vw;
     padding-left: 25%;
@@ -380,7 +409,6 @@ h2{
   #narow-image{
     padding-left: 35%;
   }
-
 
   .display-image{
     height: 25vw;
