@@ -342,11 +342,12 @@ footer{
   }
 
   .footer-text{
-    width: 10%;
+    display: none;
   }
 
   .contact{
-    width: 30%;
+    width: 33%;
+    display: block;
   }
 
 }
