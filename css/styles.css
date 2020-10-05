@@ -343,6 +343,7 @@ footer{
 
   .footer-text{
     display: none;
+    font-size: 1.8vw;
   }
 
   .contact{
