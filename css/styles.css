@@ -156,7 +156,6 @@ h2{
 
 .nav-buttons{
   padding-top: 1%;
-  padding-bottom: 2%;
   position: relative;
   top: -24vw;
 }
@@ -283,7 +282,6 @@ h2{
 
 .documents{
   padding-top: 5%;
-  padding-right: 8%;
   display: flex;
   margin: auto;
   width: 80%;
