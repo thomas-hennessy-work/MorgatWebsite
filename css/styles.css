@@ -74,10 +74,11 @@ h2{
   align-items: center;
   justify-content: flex-end;
   padding-left: 45%;
+  padding-top: 1%;
 }
 
 .flag{
-  width: 8vw;
+  width: 6vw;
   height: auto;
   padding-left: 20%;
 }
