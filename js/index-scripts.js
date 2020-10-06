@@ -12,6 +12,12 @@ function slideshow(imageArray, slideIndex){
   setTimeout(function(){slideshow(imageArray, slideIndex)}, 5000); //repeat process every 5 seconds
 }
 
-var slidePos = 0;
-var imageItems = document.getElementsByClassName('slideshow-slide'); //Gathering all images labeled 'slideshow-slide'
-slideshow(imageItems, slidePos);
+//first slideshow
+var slideAPos = 0;
+var imageAItems = document.getElementsByClassName('slideshow-A-slide'); //Gathering all images labeled 'slideshow-slide'
+slideshow(imageAItems, slideAPos);
+
+//Second slideshow
+var slideBPos = 0;
+var imageBItems = document.getElementsByClassName('slideshow-B-slide'); //Gathering all images labeled 'slideshow-slide'
+slideshow(imageBItems, slideAPos);
