@@ -327,6 +327,13 @@ footer{
 }
 
 /* Booking form and map*/
+.table-contact{
+  margin: auto;
+  padding-bottom: 5%;
+  font-size: 3vw;
+  text-align: left;
+}
+
 .maps-link{
   padding-top: 2%;
   padding-bottom: 2%;
