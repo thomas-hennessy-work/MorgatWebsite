@@ -45,22 +45,27 @@ h2{
 .header h1{
   font-size: 5vw;
   min-width: 300%;
+  margin-bottom: 1%;
 }
 
 .header-contact-div{
-  display: flex;
-  color: red;
   margin: auto;
-  padding-bottom: 1%;
+  padding-bottom: 0%;
+  width: 90%;
 }
 
 .header-contact{
   display: flex;
   margin: auto;
+  padding-bottom: 0px;
   padding-left: 1%;
   padding-right: 1%;
-  margin-bottom: 1.5%;
-  font-size: 3.2vw;
+}
+
+.header-contact p{
+  font-size: 2.4vw;
+  font-weight: bold;
+  padding-left: 10%;
 }
 
 .language-option{
@@ -437,7 +442,7 @@ footer{
   }
 
   .header-contact-div{
-    width: 65%;
+    width: 90%;
   }
 
   #email-contact{
