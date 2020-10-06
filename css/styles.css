@@ -231,18 +231,18 @@ footer{
   transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
+#narrow-slideshow{
+  padding-left: 6%;
+}
+
 .slideshow-options-list{
   display: flex;
   flex-direction: row;
   cursor: pointer;
 }
 
-#narrow-list{
-  padding-left: 4%;
-}
-
 .selector-image{
-  height: 14.7vw;
+  height: 11vw;
   padding-left: 1.8vw;
   opacity: 0.4;
 }
@@ -490,15 +490,12 @@ footer{
     top: -20vw;
   }
 
-  .slideshow-options-list{
-    padding-left: 5%;
-  }
-
-  #narrow-list{
+  /* #narrow-slideshow{
     padding-left: 9%;
-  }
+  } */
 
   .selector-image{
     height: 10vw;
+    padding-left: 3vw;
   }
 }
