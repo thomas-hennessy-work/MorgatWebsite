@@ -404,8 +404,7 @@ footer{
 
   .footer-text{
     display: none;
-    font-size: 1.7vw;
-    padding-left: 4%;
+    font-size: 1.4vw;
   }
 
   .contact{
@@ -462,8 +461,7 @@ footer{
   }
 
   .footer-text{
-    font-size: 1.5vw;
-    padding-left: 6%;
+    font-size: 1.4vw;
   }
 
   .slideshow-A-slide{
@@ -502,10 +500,6 @@ footer{
   .nav-buttons{
     top: -20vw;
   }
-
-  /* #narrow-slideshow{
-    padding-left: 9%;
-  } */
 
   .selector-image{
     height: 10vw;
