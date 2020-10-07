@@ -19,7 +19,7 @@ body a{
 }
 
 p{
-  font-size: 4vw;
+  font-size: 3vw;
 }
 
 b{
@@ -44,7 +44,7 @@ h2{
 
 .header h1{
   font-size: 5vw;
-  min-width: 300%;
+  min-width: 250%;
   margin-bottom: 1%;
 }
 
@@ -402,7 +402,7 @@ footer{
   }
 
   .header{
-    margin-left: 10%;
+    margin-left: 15%;
   }
 
   footer{
@@ -438,7 +438,7 @@ footer{
   }
 
   .header{
-    margin-left: 0px;
+    margin-left: 13%;
   }
 
   .header h1{
