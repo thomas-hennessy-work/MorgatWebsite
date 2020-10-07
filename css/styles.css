@@ -5,13 +5,19 @@
 .w3-animate-opacity{animation:opac 1s}@keyframes opac{from{opacity:0.4} to{opacity:1}}
 
 /* All pages styles */
+html{
+  background-color: #ffffb3;
+}
+
 body{
   /* font-family: Tahoma, Geneva, sans-serif; */
   font-family: Didot LT STD;
   text-align: center;
-  background-color: #ffffb3;
+  /* background-color: #ffffb3; */
   margin: 0%;
   overflow-x: hidden;
+
+  background: linear-gradient(#5ad8c5 20vw, #ffffb3 20vw 1100vw);
 }
 
 body a{
