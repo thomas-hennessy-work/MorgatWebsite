@@ -336,7 +336,8 @@ footer{
 .table-contact{
   margin: auto;
   padding-bottom: 5%;
-  font-size: 3vw;
+  font-size: 2.4vw;
+  font-weight: bold;
   text-align: left;
 }
 
