@@ -27,7 +27,7 @@ b{
 }
 
 h2{
-  font-size: 4vw;
+  font-size: 2.4vw;
 }
 
 .bold-information{
@@ -78,7 +78,7 @@ h2{
 }
 
 .flag{
-  width: 6vw;
+  width: 5vw;
   height: auto;
   padding-left: 20%;
 }
@@ -181,9 +181,15 @@ footer{
 }
 
 .slideshow-B-slide{
-  height: 65vw;
+  height: 60vw;
   display: none;
   padding-top: 5%;
+  margin: auto;
+}
+
+#auto-B-wide-slide{
+  padding-left: 0%;
+  padding-right: 5%;
 }
 
 #narow-image{
@@ -471,7 +477,7 @@ footer{
 
   .slideshow-B-slide{
     height: 33vw;
-    padding-left: 25%;
+    margin: auto;
   }
 
   #narow-image{
