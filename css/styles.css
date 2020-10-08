@@ -25,7 +25,7 @@ body a{
 }
 
 p{
-  font-size: 2.9vw;
+  font-size: 3vw;
 }
 
 b{
@@ -339,6 +339,10 @@ footer{
 }
 
 /* Booking form and map*/
+.wide-text{
+  font-size: 2.7vw;
+}
+
 .table-contact{
   margin: auto;
   padding-bottom: 5%;
