@@ -277,28 +277,16 @@ footer{
   opacity: 1;
 }
 
-.video-tour{
-  padding-top: 3%;
-  padding-bottom: 2%;
+.youtube-div{
+  position: relative;
+  overflow: hidden;
 }
 
-.video-tour a{
-  color: black;
-  font-weight: bold;
-  width: 50%;
-  font-size: 3vw;
-  border-radius: 5%;
-  padding: 2%;
-  background-color: #5ad8c5;
+.youtube-video{
+  border: 0px;
+  width: 48vw;
+  height: 27vw;
 }
-
-.video-tour :hover{
-  background-color: #5cbcb0;
-  box-shadow: -3px 3px 3px black;
-  transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
-}
-
-
 
 
 /* price page */
