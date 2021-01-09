@@ -288,6 +288,10 @@ footer{
   height: 27vw;
 }
 
+#walk-video{
+  padding-top: 5vw;
+}
+
 
 /* price page */
 .price-table{
