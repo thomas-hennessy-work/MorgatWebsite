@@ -249,10 +249,6 @@ footer{
   transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
-#narrow-slideshow{
-  padding-left: 6%;
-}
-
 .slideshow-options-list{
   display: flex;
   flex-direction: row;
