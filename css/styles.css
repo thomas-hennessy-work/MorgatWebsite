@@ -255,6 +255,10 @@ footer{
   cursor: pointer;
 }
 
+#slideshowA-img{
+  padding-left: 1vw;
+}
+
 .selector-image{
   height: 11vw;
   padding-left: 1.8vw;
@@ -481,11 +485,6 @@ footer{
 
   .display-image{
     height: 25vw;
-  }
-
-  .selector-image{
-    height: 12vw;
-    padding-left: 5vw;
   }
 
   .price-table{
