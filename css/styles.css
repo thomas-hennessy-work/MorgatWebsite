@@ -86,7 +86,21 @@ h2{
 .flag{
   width: 5vw;
   height: auto;
-  padding-left: 20%;
+}
+
+.flag_grey{
+  width: 5vw;
+  height: auto;
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+}
+
+#left_Flag{
+  padding-right: 10%
+}
+
+#right_Flag{
+  padding-left: 10%
 }
 
 .navigation-bar{
