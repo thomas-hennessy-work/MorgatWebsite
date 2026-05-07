@@ -280,7 +280,7 @@ footer{
 }
 
 .slideshowB-img{
-  padding-left: 1.8vw;
+  height: 10vw;
 }
 
 .selector-image-active{
@@ -431,6 +431,10 @@ footer{
     display: block;
   }
 
+  .selector-image{
+    height: 10vw;
+  }
+
 }
 
 
@@ -443,10 +447,6 @@ footer{
     font-size: 2vw;
     max-width: 80%;
     padding-left: 10%;
-  }
-
-  b{
-    font-size: 2vw;
   }
 
   .header{
@@ -517,6 +517,6 @@ footer{
 
   .selector-image{
     height: 10vw;
-    padding-left: 3vw;
+    padding-left: 1vw;
   }
 }
